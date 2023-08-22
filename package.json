@@ -17,6 +17,6 @@
     "http": "^0.0.1-security",
     "isomorphic-fetch": "^3.0.0",
     "itty-router": "^4.0.14",
-    "ytdl-core": "^4.11.4"
+    "ytdl-core": "^4.11.5"
   }
 }
