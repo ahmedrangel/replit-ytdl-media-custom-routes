@@ -32,7 +32,6 @@ router
               view.set(chunk, offset);
               offset += chunk.length;
             });
-            // Ahora 'arrayBuffer' contiene los datos en formato ArrayBuffer
             resolve(arrayBuffer);
             console.log("buffer enviado")
           });
