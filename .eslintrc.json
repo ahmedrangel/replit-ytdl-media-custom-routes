@@ -22,11 +22,8 @@
     "semi": ["error", "always"],
     "camelcase": "off",
     "arrow-spacing": ["error", { "before": true, "after": true }],
-    "no-console": ["error", {
-      "allow": ["info", "warn"]
-    }],
     "brace-style": ["error", "1tbs", { "allowSingleLine": true }],
     "no-multi-spaces": "error",
-    "space-before-blocks": "error",
+    "space-before-blocks": "error"
   }
 }
