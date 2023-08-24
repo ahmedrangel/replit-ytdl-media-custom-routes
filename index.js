@@ -39,7 +39,7 @@ router
         });
       };
       const ab = await streamToArrayBuffer(yt);
-      const type = filter == "audioonly" ? "audio/mp3" : "video/mp4"; 
+      const type = filter == "audioonly" ? "audio/mp3" : "video/mp4";
       return new CustomResponse(ab, {type: type});
     } else {
       return new JsResponse({error: "Some query is missing"});
