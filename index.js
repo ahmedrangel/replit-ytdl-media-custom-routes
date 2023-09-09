@@ -55,7 +55,8 @@ router
     return new JsResponse({
       caption: videoTitle,
       duration: duration,
-      short_url: short_url
+      short_url: short_url,
+      status: 200
     });
   })
   .all("*", () => new JsResponse({status:404, message:"Not Found"}));
