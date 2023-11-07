@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@distube/ytdl-core": "^4.13.2",
     "@types/node": "^18.0.6",
     "@whatwg-node/server": "^0.9.2",
     "eslint": "^8.47.0",
@@ -19,6 +20,6 @@
     "http": "^0.0.1-security",
     "isomorphic-fetch": "^3.0.0",
     "itty-router": "^4.0.14",
-    "ytdl-core": "^4.11.5"
+    "ytdl-core": "npm:@distube/ytdl-core@^4.13.2"
   }
 }
