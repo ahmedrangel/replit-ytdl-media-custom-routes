@@ -68,7 +68,3 @@ const ittyServer = createServerAdapter(
 );
 const httpServer = createServer(ittyServer);
 httpServer.listen(3001);
-const keep = () => {
-  console.log("keep");
-};
-setInterval(keep, 120000);
