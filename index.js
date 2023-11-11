@@ -67,4 +67,4 @@ const ittyServer = createServerAdapter(
     .catch(error)
 );
 const httpServer = createServer(ittyServer);
-httpServer.listen(3001);
+httpServer.listen(3002);
